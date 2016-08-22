@@ -1,0 +1,23 @@
+<template name = "storytext">
+
+	<div class = "story">
+		{{{story}}}
+
+		<center><div class="showTellBtns">
+			<button id="show">Showing</button>
+			<button id="tell">Telling</button>
+			<div id="showTellBtnFeedback"></div>
+		</div></center>
+
+		<div class ="nameForm">
+			<textarea id="nameTextArea" name="name" rows="1" cols="30" placeholder="Write your name here!" required></textarea><br>
+			<button id="submitName">Submit</button><br>
+			<div id="thanksName">Thanks!</div>
+		</div>
+
+	</div>
+
+
+	<img class="back" id="backStory" src="/images/back.png" alt="Back">
+	<img class="next" id="nextStory" src="/images/next.png" alt="Next">
+</template>

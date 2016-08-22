@@ -1,0 +1,7 @@
+{
+  "galaxy.meteor.com": { 
+     "env": { 
+       "MONGO_URL": "mongodb://app:m0ngom0ng0@@ds147985.mlab.com:47985/highlightingfeedback 
+     } 
+   }
+}

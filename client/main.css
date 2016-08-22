@@ -1,0 +1,130 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+}
+
+.container{
+	font-family: "Palatino Linotype", Palatino, serif;
+	padding: 2em;
+	margin: 0 auto;
+}
+
+h1, h3{
+	font-family: "Palatino Linotype", Palatino, serif;
+}
+
+p {
+	font-weight: bold;
+	font-size: 1em;
+}
+
+#udescription {
+	font-family: serif;
+	margin: 0 auto;
+
+}
+
+
+.fullReviewText {
+	border-width: 0.3em;
+	word-spacing: 0.3em;
+	padding: 1em;
+	border: 1px solid black;
+
+}
+
+.highlight {
+	border-style: hidden;
+    
+}
+
+.highlight-descriptive {
+	background-color: Chartreuse;
+
+}
+
+.highlight-notdescriptive {
+	background-color: HotPink;
+}
+
+.highlight-grammar {
+	background-color: Gold;
+}
+
+.border-descriptive {
+	border-style: solid;
+	border-color: Chartreuse;
+}
+
+.border-nondescriptive {
+	border-style: solid;
+	border-color: HotPink;
+}
+
+.border-grammar {
+	border-style: solid;
+	border-color: Gold;
+}
+
+
+.next {
+	float: right;
+	width:4em;
+	height:4em;
+	padding:2em;
+}
+
+.back{
+	float: left;
+	width:4em;
+	height:4em;
+	padding:2em;
+	display: none;
+}
+
+.story{
+	padding:2em;
+	line-height: 150%;
+
+}
+
+button{
+	padding: 1em;
+	margin: 1em;
+	font-size: .75em;
+	font-family: "Palatino Linotype", Palatino, serif;
+}
+
+.showTellBtns{
+	display:none;
+
+}
+
+.nameForm{
+	display:none;
+	font-family: "Palatino Linotype", Palatino, serif;
+	padding:3em;
+
+}
+#nameTextArea{
+	font-size: 1em;
+}
+
+#hitNext, #thanksName, #showTellBtnFeedback{
+	display:none;
+}
+
+.instructions{
+	line-height: 150%;	
+}
+
+#sample{
+	font-size: 1em;
+	width: 90%;
+    height: 5em;
+}
+
+
+
